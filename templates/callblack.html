@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculating...</title>
+            <style>
+
+body {    background-image: url("https://media.istockphoto.com/id/1164222265/vector/digital-technology-gaming-abstract-background.jpg?s=612x612&w=0&k=20&c=WNdyB6Htu8NZg_ZdCN0XzzCEh-sQeSrKkCYLZcKs6eM=");
+justify-content : center;
+text-align : center;
+}
+
+
+input {
+  background-color: darkcyan;
+  border: 2px solid black;
+  border-radius : 1rem;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight : bolder;
+  margin : 10px 5px;
+}
+
+input[type= text] {
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius : 1rem;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight : bolder;
+  margin : 10px 5px;
+}
+
+h1{
+  font-size : 40px;
+  color : gold;
+}
+h2{
+  font-size : 36px;
+    color : gold;
+  }
+
+ p{
+   font-size : 35px;
+     color : gold;
+   }
+    </style>
+</head>
+<body>
+<div>
+    <h1 class="main_heading">Call Option</h1>
+  <fieldset>
+        <h2 class="heading">Black-Scholes Formula</h2>
+    <form action="Call_Black_scholes_model">
+        <p>
+        Rate Value:<br> <input type="text" name="rate">
+        <br>
+        Volatility Value:<br> <input type="text" name="volatility">
+        <br>
+        Initial Stock Price Value:<br> <input type="text" name="InitialStockPrice">
+        <br>
+        Strike Price Value:<br> <input type="text" name="StrikePrice">
+        <br>
+        Maturity Time Value(in days):<br> <input type="text" name="Maturity">
+        <br>
+        <br>
+        <input type="submit">
+        </p>
+    </form>
+  </fieldset>
+</div>
+</body>
+</html>
